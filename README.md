@@ -2,6 +2,7 @@
 
 Global petroleum export analytics project built with PostgreSQL, SQL, DAX, and Power BI, featuring executive KPI reporting, revenue trend analysis, OPEC contribution insights, and interactive dashboard visualization.
 
+---
 
 ![Dashboard Preview](assets/Global_Exports_1.jpg)
 
@@ -25,6 +26,22 @@ The goal of this project was to:
 - Evaluate oil profitability patterns
 - Track revenue trends across years
 - Build a premium executive-style analytics dashboard
+
+---
+
+# Interactive Dashboard Views
+
+Africa Regional Analysis
+
+![Dashboard Preview](assets/Global_Exports_(Africa).jpg)
+
+Americas Regional Analysis
+
+![Dashboard Preview](assets/Global_Exports_(America).jpg)
+
+Europe Regional Analysis
+
+![Dashboard Preview](assets/Global_Exports_(Europe).jpg)
 
 ---
 

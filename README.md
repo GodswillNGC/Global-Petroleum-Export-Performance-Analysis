@@ -65,61 +65,26 @@ The Europe-focused analysis explores export revenue patterns, leading petroleum-
 
 ---
 
-# SQL Engineering Tasks Performed
-
-The SQL workflow focused heavily on real-world analytics engineering practices.
-
-## Data Cleaning
-- Removed null records
-- Standardized text formatting using `TRIM()` and `INITCAP()`
-- Converted data types using `CAST()`
-- Created readable month names
-- Built year-month fields for time intelligence
-
-## Feature Engineering
-
-Created:
-- Quarter classifications
-- Revenue categories
-- Volume categories
-- OPEC / Non-OPEC segmentation
-- Revenue per barrel calculations
-
-## KPI Engineering
-
-Built executive metrics such as:
-- Total export revenue
-- Total export volume
-- Average revenue per barrel
-- OPEC revenue contribution %
-- Export transaction counts
-
-## Advanced SQL Analytics
-
-Implemented:
-- `RANK()` window functions
-- `DENSE_RANK()`
-- `LAG()` for growth analysis
-- CTEs for modular query design
-- Aggregation and profitability analysis
-
-## Data Modeling
-
-A production-style SQL view was created:
-
-```sql
-vw_global_exports_analytics
-```
-
-This view became the primary reporting table connected directly into Power BI.
-
----
-
 # SQL Analytics Engineering
 
-The complete PostgreSQL workflow used for data cleaning, transformation, KPI engineering, feature creation, ranking analysis, and time-series analytics can be accessed below:
+PostgreSQL was used to perform end-to-end analytics engineering and prepare the dataset for business intelligence reporting in Power BI.
 
-[View Full SQL Query Documentation](SQL/global_exports_analysis.sql)
+The SQL workflow included:
+- Data cleaning and null handling
+- Text standardization using `TRIM()` and `INITCAP()`
+- Data type conversion using `CAST()`
+- Time intelligence preparation with month, quarter, and year-month fields
+- Feature engineering for revenue and volume segmentation
+- OPEC vs Non-OPEC classification
+- Revenue-per-barrel calculations
+- Executive KPI engineering
+- Ranking and profitability analysis
+- Time-series trend analysis using window functions
+- Production-style data modeling through a reusable analytics view
+
+The transformed SQL view served as the primary reporting table connected directly into Power BI for dashboard development and interactive analytics.
+
+[View Full SQL Query Documentation](./SQL/global_exports_analysis.sql)
 
 ---
 
@@ -186,77 +151,12 @@ The dashboard was intentionally designed with:
 
 ---
 
-# DAX Measures Created
+# DAX Measures Documentation
 
-Several DAX measures were developed for dynamic insights and KPI generation.
+The custom DAX measures used for KPI calculations, ranking logic, dynamic insights, and dashboard interactivity can be accessed below:
 
-## Top Country by Revenue
+[View DAX Measures Documentation](/DAX/dax_measures.md)
 
-```DAX
-Top Country by Revenue =
-VAR TopCountry =
-    TOPN(
-        1,
-        SUMMARIZE(
-            vw_global_exports_analytics,
-            vw_global_exports_analytics[exporting_country],
-            "Revenue", [Total Revenue]
-        ),
-        [Revenue],
-        DESC
-    )
-RETURN
-    CONCATENATEX(
-        TopCountry,
-        vw_global_exports_analytics[exporting_country],
-        ", "
-    )
-```
-
-## Best Oil Type
-
-```DAX
-Best Oil Type =
-VAR TopOilType =
-    TOPN(
-        1,
-        SUMMARIZE(
-            vw_global_exports_analytics,
-            vw_global_exports_analytics[oil_type],
-            "Revenue", [Total Revenue]
-        ),
-        [Revenue],
-        DESC
-    )
-RETURN
-    CONCATENATEX(
-        TopOilType,
-        vw_global_exports_analytics[oil_type],
-        ", "
-    )
-```
-
-## Highest Revenue Year
-
-```DAX
-Highest Revenue Year =
-VAR TopYear =
-    TOPN(
-        1,
-        SUMMARIZE(
-            vw_global_exports_analytics,
-            vw_global_exports_analytics[year],
-            "Revenue", [Total Revenue]
-        ),
-        [Revenue],
-        DESC
-    )
-RETURN
-    CONCATENATEX(
-        TopYear,
-        vw_global_exports_analytics[year],
-        ", "
-    )
 ```
 
 ---
@@ -281,17 +181,12 @@ The SQL architecture was written using production-style formatting and modular q
 ```text
 Global-Petroleum-Export-Performance-Analysis/
 │
-├── SQL/
-│   └── global_oil_exports_queries.sql
-│
-├── Dashboard/
-│   └── Global_Oil_Export_Analysis.pbix
-│
+├── README.md
 ├── assets/
-│   ├── dashboard-main.png
-│   └── dashboard-middle-east.png
-│
-└── README.md
+├── SQL/
+├── DAX/
+└── Dashboard/
+
 ```
 
 

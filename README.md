@@ -31,18 +31,21 @@ The goal of this project was to:
 # Interactive Dashboard Views
 
 ## Africa Regional Analysis
+The Africa regional view highlights the continent’s contribution to global petroleum exports, showcasing key exporting economies, revenue performance trends, and the role of African oil markets within the global energy trade landscape.
 
 ![Dashboard Preview](assets/Global_Exports_(Africa).jpg)
 
 ---
 
 ## Americas Regional Analysis
+This filtered dashboard provides insight into petroleum export performance across North and South America, revealing regional revenue distribution, export dominance, and comparative market contribution within the global oil industry.
 
 ![Dashboard Preview](assets/Global_Exports_(America).jpg)
 
 ---
 
 ## Europe Regional Analysis
+The Europe-focused analysis explores export revenue patterns, leading petroleum-exporting nations, and regional trade performance, offering a detailed view of Europe’s position within the international energy export market.
 
 ![Dashboard Preview](assets/Global_Exports_(Europe).jpg)
 

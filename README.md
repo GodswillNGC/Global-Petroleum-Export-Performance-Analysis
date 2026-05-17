@@ -14,8 +14,7 @@ This project demonstrates a complete analytics workflow:
 # Dashboard Preview
 
 ## Main Dashboard View
-
-<img width="100%" alt="Global Petroleum Export Performance Analysis Dashboard" src="assets/Global_Exports_Main.jpg">
+![Dashboard Preview](assets/Global_Exports_Main.jpg)
 
 ## Dashboard with Regional Slicer Applied
 

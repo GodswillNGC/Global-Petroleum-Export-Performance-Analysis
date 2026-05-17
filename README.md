@@ -16,7 +16,7 @@ This project demonstrates a complete analytics workflow:
 ## Main Dashboard View
 
 <p align="center">
-  <img src="assets/Global_Exports_Main.jpg" width="100%">
+  <img src="assets/Global_Exports_1.jpg" width="100%">
 </p>
 
 ![Dashboard Preview](assets/Global_Exports_1.jpg)

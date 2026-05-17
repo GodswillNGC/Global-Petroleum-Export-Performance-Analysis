@@ -31,15 +31,19 @@ The goal of this project was to:
 
 # Interactive Dashboard Views
 
-Africa Regional Analysis
+## Africa Regional Analysis
 
 ![Dashboard Preview](assets/Global_Exports_(Africa).jpg)
 
-Americas Regional Analysis
+---
+
+## Americas Regional Analysis
 
 ![Dashboard Preview](assets/Global_Exports_(America).jpg)
 
-Europe Regional Analysis
+---
+
+## Europe Regional Analysis
 
 ![Dashboard Preview](assets/Global_Exports_(Europe).jpg)
 

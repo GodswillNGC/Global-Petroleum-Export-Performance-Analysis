@@ -15,11 +15,11 @@ This project demonstrates a complete analytics workflow:
 
 ## Main Dashboard View
 
-<img width="100%" alt="Global Petroleum Export Performance Analysis Dashboard" src="assets/Global Exports_1.jpg">
+<img width="100%" alt="Global Petroleum Export Performance Analysis Dashboard" src="assets/Global_Exports_Main.jpg">
 
 ## Dashboard with Regional Slicer Applied
 
-<img width="100%" alt="Dashboard with Middle East Filter Applied" src="assets/dashboard-middle-east.png">
+<img width="100%" alt="Dashboard with Middle East Filter Applied" src="assets/Global_Exports_(America).jpg">
 
 ---
 

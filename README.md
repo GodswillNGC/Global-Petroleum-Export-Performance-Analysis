@@ -157,8 +157,6 @@ The custom DAX measures used for KPI calculations, ranking logic, dynamic insigh
 
 [View DAX Measures Documentation](/DAX/dax_measures.md)
 
-```
-
 ---
 
 # SQL Highlights
@@ -210,3 +208,9 @@ It was built to reflect the standards used in modern business intelligence and d
 ## Ndubuisi Godswill
 
 Data Analytics | SQL | Power BI | Business Intelligence | Data Visualization
+
+## Contact 
+
+📧 [Email](mailto:godswill.ngc@gmail.com)  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/godswill-ndubuisi-3341401a2)  

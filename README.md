@@ -110,6 +110,12 @@ vw_global_exports_analytics
 
 This view became the primary reporting table connected directly into Power BI.
 
+# SQL Analytics Engineering
+
+The complete PostgreSQL workflow used for data cleaning, transformation, KPI engineering, feature creation, ranking analysis, and time-series analytics can be accessed below:
+
+[View Full SQL Query Documentation](.SQL/global_exports_analysis.sql)
+
 ---
 
 # Key Business Insights

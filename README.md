@@ -14,6 +14,11 @@ This project demonstrates a complete analytics workflow:
 # Dashboard Preview
 
 ## Main Dashboard View
+
+<p align="center">
+  <img src="assets/Global_Exports_Main.jpg" width="100%">
+</p>
+
 ![Dashboard Preview](assets/Global_Exports_Main.jpg)
 
 ## Dashboard with Regional Slicer Applied

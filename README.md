@@ -90,7 +90,7 @@ The transformed SQL view served as the primary reporting table connected directl
 
 # Key Business Insights
 
-## OPEC Dominance
+### OPEC Dominance
 
 OPEC nations contributed nearly half of total global export revenue, highlighting continued influence in global petroleum trade.
 

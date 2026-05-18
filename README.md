@@ -94,23 +94,23 @@ The transformed SQL view served as the primary reporting table connected directl
 
 OPEC nations contributed nearly half of total global export revenue, highlighting continued influence in global petroleum trade.
 
-## Top Export Economies
+### Top Export Economies
 
 Kazakhstan, Nigeria, Russia, Brazil, UAE, and Kuwait consistently ranked among the highest revenue-generating exporters.
 
-## Oil Type Profitability
+### Oil Type Profitability
 
 Brent Blend emerged as the highest-performing oil category based on revenue efficiency and profitability metrics.
 
-## Regional Performance
+### Regional Performance
 
 The Middle East generated the strongest export revenue contribution globally, outperforming other regions significantly.
 
-## Revenue Trends
+### Revenue Trends
 
 Export revenue displayed strong fluctuations across reporting years, with noticeable recovery and acceleration in later periods.
 
-## Market Concentration
+### Market Concentration
 
 A relatively small number of countries generated a large share of total export revenue, indicating concentrated export dominance.
 
